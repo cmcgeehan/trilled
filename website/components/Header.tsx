@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Search } from 'lucide-react'
 
 export function Header() {
   return (
