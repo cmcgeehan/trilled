@@ -32,7 +32,7 @@ export default function ComparisonSection() {
         <div className="flex flex-col md:flex-row-reverse items-center">
           <div className="md:w-1/2 mb-8 md:mb-0 md:pl-8">
             <Image
-              src="/images/fullyAiTeams.webp"
+              src="/images/fullyAITeams.webp"
               alt="Fully AI Teams"
               width={600}
               height={400}
