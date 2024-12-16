@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 import ProcessSection from '@/components/ProcessSection'
 import ComparisonSection from '@/components/ComparisonSection'
 import IndustriesSection from '@/components/IndustriesSection'
@@ -23,12 +24,16 @@ export default function Home() {
             Revolutionizing workforce efficiency with the perfect blend of human expertise and AI capabilities.
           </p>
           <div className="mt-10 flex justify-center gap-4">
-            <Button size="lg" className="bg-[var(--neon-blue)] hover:bg-[var(--neon-blue)]/90 text-gray-900 font-medium">
-              Get Started
-            </Button>
-            <Button size="lg" variant="outline" className="border-[var(--text-muted)] text-[var(--text-secondary)] hover:bg-gray-800 hover:text-[var(--text-primary)]">
-              Learn more
-            </Button>
+            <Link href="https://calendly.com/conormcgeehan/trilled-meeting" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-[var(--neon-blue)] hover:bg-[var(--neon-blue)]/90 text-gray-900 font-medium">
+                Get Started
+              </Button>
+            </Link>
+            <Link href="/case-studies">
+              <Button size="lg" className="border border-[var(--text-muted)] text-[var(--text-secondary)] hover:bg-gray-800 hover:text-[var(--text-primary)]">
+                Learn more
+              </Button>
+            </Link>
           </div>
         </section>
 

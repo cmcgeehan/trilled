@@ -23,9 +23,9 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center space-x-4">
-            <Button className="bg-[var(--neon-blue)] hover:bg-[var(--neon-blue)]/90 text-gray-900 font-medium">
+            <a href="https://calendly.com/conormcgeehan/trilled-meeting" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-gray-900 bg-[var(--neon-blue)] hover:bg-[var(--neon-blue)]/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--neon-blue)]">
                 Get Started
-            </Button>
+            </a>
           </div>
         </nav>
       </div>

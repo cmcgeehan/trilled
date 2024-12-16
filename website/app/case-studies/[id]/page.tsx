@@ -109,9 +109,9 @@ export default function CaseStudy({ params }: { params: { id: string } }) {
         <div className="bg-gray-800 rounded-lg p-8 text-center">
           <h2 className="text-2xl font-semibold mb-4 text-[var(--neon-blue)]">Ready to Transform Your Business?</h2>
           <p className="text-[var(--text-secondary)] mb-6">Let us help you achieve similar results with our hybrid team approach.</p>
-          <Button size="lg" className="bg-[var(--neon-orange)] hover:bg-[var(--neon-orange)]/90 text-gray-900 font-medium">
+          <a href="https://calendly.com/conormcgeehan/trilled-meeting" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-gray-900 bg-[var(--neon-orange)] hover:bg-[var(--neon-orange)]/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[var(--neon-orange)]">
             Get Started Today
-          </Button>
+          </a>
         </div>
       </main>
       <Footer />
