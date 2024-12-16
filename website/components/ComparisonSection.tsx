@@ -1,8 +1,6 @@
 'use client'
 
-import { useState } from 'react'
 import Image from 'next/image'
-import { User, Bot } from 'lucide-react'
 
 export default function ComparisonSection() {
   return (
@@ -24,7 +22,7 @@ export default function ComparisonSection() {
           <div className="md:w-1/2">
             <h3 className="text-2xl font-semibold mb-4 text-[var(--neon-orange)]">Why Not Fully Human Teams?</h3>
             <div className="space-y-4 text-[var(--text-secondary)]">
-              <p>Every manager has thought to themselves, 'I wish I had ten of my best employee. They get so much done!'</p>
+              <p>Every manager has thought to themselves, &apos;I wish I had ten of my best employee. They get so much done!&apos;</p>
               <p>Human agents can only call one person, or perform one task, at a time. An AI can call many people at once, so you can get more out of them in a day than any human.</p>
             </div>
           </div>
@@ -45,7 +43,7 @@ export default function ComparisonSection() {
             <h3 className="text-2xl font-semibold mb-4 text-[var(--neon-orange)]">Why Not Fully AI Teams?</h3>
             <div className="space-y-4 text-[var(--text-secondary)]">
               <p>AI is incredibly efficient, but it takes time and effort to train. Nothing beats human learnings, which we take an incorporate for both human and AI agents.</p>
-              <p>When a task is new, we don't have enough data to train an agent and we learn and change processes quickly. We stabilize the team with humans while building the foundation to train our AI.</p>
+              <p>When a task is new, we don&apos;t have enough data to train an agent and we learn and change processes quickly. We stabilize the team with humans while building the foundation to train our AI.</p>
             </div>
           </div>
         </div>

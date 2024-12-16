@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import { TeamMemberCard } from './TeamMemberCard'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
