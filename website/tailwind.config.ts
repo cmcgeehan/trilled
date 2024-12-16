@@ -55,9 +55,43 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+      typography: {
+        DEFAULT: {
+          css: {
+            color: 'var(--text-primary)',
+            h1: {
+              color: 'var(--neon-blue)',
+            },
+            h2: {
+              color: 'var(--neon-orange)',
+            },
+            h3: {
+              color: 'var(--neon-blue)',
+            },
+            strong: {
+              color: 'var(--text-primary)',
+            },
+            a: {
+              color: 'var(--neon-blue)',
+              '&:hover': {
+                color: 'var(--neon-orange)',
+              },
+            },
+            p: {
+              color: 'var(--text-secondary)',
+            },
+            li: {
+              color: 'var(--text-secondary)',
+            },
+          },
+        },
+      },
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    require("@tailwindcss/typography")
+  ],
 };
 export default config;
